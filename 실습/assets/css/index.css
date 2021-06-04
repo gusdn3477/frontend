@@ -5,21 +5,25 @@
 }
 
 #container{
-    width : 40px;
-    height : 20px;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom : 20px;
 }
 
 .box{
     display : flex;
     width : 200px;
-    height : 100px;
+    height : 150px;
     background-color :skyblue;
     margin : 10px;
     justify-content : center;
     align-items : center;
     transition : 0.3s;
-    cursor : pointer;
     border-radius : 15px;
+    font-size: 20px;
     flex-wrap : wrap;
 }
 
@@ -32,6 +36,11 @@
     margin : 10px;
 }
 
+.inner_box_outer{
+    display : flex;
+    flex-direction: column;
+}
+
 .box:hover{
     position : relative;
     transform: scale(1.2);
@@ -40,4 +49,10 @@
     box-shadow : 5px 5px 5px gray;
     top : -5px;
     left : -5px;
+}
+
+.btn{
+    border : 0.3px;
+    border-radius : 5px;
+    cursor : pointer;
 }
