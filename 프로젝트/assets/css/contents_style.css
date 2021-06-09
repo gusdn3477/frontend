@@ -1,0 +1,50 @@
+body{
+    width : 100%;
+    height : 100%;
+}
+
+#header{
+    display : flex;
+    position : fixed;
+    align-items: center;
+    height : 80px;
+}
+
+#title{
+    display: flex;
+    font-weight : bold;
+    font-size : 35px;
+}
+
+#nav{
+    font-size : 18.5px;
+    font-weight : bold;
+    margin-left : 600px;
+}
+
+#emoji{
+    font-size : 15px;
+    font-weight : bold;
+    margin-left : 600px;
+}
+
+#container{
+    display : flex;
+    height : 500px;
+    background-color :orchid;
+}
+
+.box{
+    width : 400px;
+    height : 400px;
+    margin-left : 5px;
+    background-color :darkgrey;
+}
+
+#footer{
+    display : flex;
+}
+
+#blank{
+    height : 100px;
+}
