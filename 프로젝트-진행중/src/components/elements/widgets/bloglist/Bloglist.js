@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
 import BlogData from '../../../../db/blog.json';
+import { Link } from 'react-router-dom';
 
 export default function BlogList(){
 
     const [newBlogData, setNewBlogData] = useState(BlogData);
     const blogList = newBlogData.map(item => (
         <div key={item.id} className = "col-12 col-md-4 mb-4">
-            <div className="blogImg" style={{backgroundSize:"cover"}}></div>
+            <Link to={`/blogdetail/${item.id}`}><div className="blogImg" style={{backgroundImage:`url(${item.image})`, backgroundSize : "cover"}}></div></Link>
             <div className="blogTxt">
-                <p className = "blogTitle">{item.title}</p>
-                <p className = "blogAuth">by {item.author}</p>
+            <Link to={`/blogdetail/${item.id}`}><p className = "blogTitle">{item.title}</p></Link>
+            <Link to={`/authordetail/${item.author}`}><p className = "blogAuth">by {item.author}</p></Link>
             </div>
         </div>
     )).slice(0,3);

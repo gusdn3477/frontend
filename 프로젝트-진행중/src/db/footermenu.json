@@ -1,0 +1,89 @@
+{
+    "ABOUT US" : [
+        {
+            "id" : 1,
+            "name" : "ABOUT US" 
+        },
+
+        {
+            "id" : 2,
+            "name" : "Store Location" 
+        },
+
+        {
+            "id" : 3,
+            "name" : "Contact" 
+        },
+
+        {
+            "id" : 4,
+            "name" : "Orders tracking" 
+        }
+    ],
+
+    "USEFUL LINKS" : [
+        {
+            "id" : 1,
+            "name" : "ABOUT US" 
+        },
+
+        {
+            "id" : 2,
+            "name" : "Store Location" 
+        },
+
+        {
+            "id" : 3,
+            "name" : "Contact" 
+        },
+
+        {
+            "id" : 4,
+            "name" : "Orders tracking" 
+        }
+    ],
+
+    "FOLLOW US" : [
+        {
+            "id" : 1,
+            "name" : "ABOUT US" 
+        },
+
+        {
+            "id" : 2,
+            "name" : "Store Location" 
+        },
+
+        {
+            "id" : 3,
+            "name" : "Contact" 
+        },
+
+        {
+            "id" : 4,
+            "name" : "Orders tracking" 
+        }
+    ],
+
+    "SUBSCRIBE" : [
+        {
+            "id" : 1,
+            "name" : "ABOUT US" 
+        },
+
+        {
+            "id" : 2,
+            "name" : "Store Location" 
+        },
+
+        {
+            "id" : 3,
+            "name" : "Contact" 
+        },
+
+        {
+            "id" : 4,
+            "name" : "Orders tracking" 
+        }
+    ]
+}
